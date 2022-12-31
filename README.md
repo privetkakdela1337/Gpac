@@ -26,7 +26,8 @@
 >- Система оптимизирована для работы в RAM, требует от 16гб для комфортной работы.  
 >- Так же хочу заметить, после установки на флешку, вы можете использовать образ в virt-manager, как замену Whonix Worstation.  
 >- Для сборки слегка модифицирован прекрасный проект [Archuseriso](https://github.com/laurent85v/archuseriso).
->  Вам понадобится Arch-система или желание её установить. [RU](https://telegra.ph/1-Ustanovka-Arch-Linux-12-28)|[ENG](https://telegra.ph/1-Arch-Linux-Installation-12-28)
+>
+>      Вам понадобится Arch-система или желание её установить. [RU](https://telegra.ph/1-Ustanovka-Arch-Linux-12-28)|[ENG](https://telegra.ph/1-Arch-Linux-Installation-12-28)
 
 ## Сборка и запись образа
 
