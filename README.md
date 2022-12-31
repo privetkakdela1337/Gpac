@@ -21,11 +21,11 @@
 >  - App Firewall.
 
 
-* <h3>Описание:</h3>
->За основу взяты твики из [Obscurix](https://obscurix.github.io/security/overview.html).  
->Система оптимизирована для работы в RAM, требуется 16гб для комфортной работы.  
->Так же хочу заметить, что собрав ее и установив на флешку, вы можете использовать этот образ в virt-manager, как замену Whonix Worstation.  
->-Для сборки слегка модифицирован прекрасный проект [Archuseriso](https://github.com/laurent85v/archuseriso). 
+* <h3>От автора</h3>
+>- За основу взяты твики из [Obscurix](https://obscurix.github.io/security/overview.html).  
+>- Система оптимизирована для работы в RAM, требуется 16гб для комфортной работы.  
+>- Так же хочу заметить, что собрав ее и установив на флешку, вы можете использовать этот образ в virt-manager, как замену Whonix Worstation.  
+>- Для сборки слегка модифицирован прекрасный проект [Archuseriso](https://github.com/laurent85v/archuseriso). 
 >Понадобится Arch-система или желание её установить. [RU](https://telegra.ph/1-Ustanovka-Arch-Linux-12-28)|[ENG](https://telegra.ph/1-Arch-Linux-Installation-12-28)
 
 ## Сборка и запись образа
