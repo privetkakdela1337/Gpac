@@ -1,13 +1,29 @@
  <h1><p align="center">Gpac</p></h1>
+<p align="center"><img src="https://user-images.githubusercontent.com/120978605/210135754-05ed3664-e32b-4bf3-b1b3-20b61311c6a3.png" width="400" /></p>
 
 
-Система направленная на защиту от 0day, так же является целостной и воспроизводимой, была оптимизирована для работы на USB.
+>* <h4>linux-hardened</h4>
+>
+>- <h4>hardened_malloc</h4>
+>
+>+ <h4>virt-manager</h4>
+>
+>* <h4>sysctl tweaks</h4>
+>
+>- <h4>encrypted persistence</h4>
+>
+>+ <h4>USBKill</h4>
+>  + Демон при изменении в списке USB устройств выключает ПК и чистит оперативную память.
+>
+>* <h4>USBGuard</h4>
+>  * Демон фильтрации недоверенных устройств на основе белого списка.
+>- <h4>OpenSnitch</h4>
+>  - App Firewall.
+ 
 
-<h3>USBKill</h3> - демон при изменении в списке USB устройств выключает ПК и чистит оперативную память.
-<h3>USBGuard</h3> - демон фильтрации недоверенных устройств на основе белого списка.
-<h3>OpenSnitch</h3> - App Firewall.
-<h3></h3>
-За основу взяты твики из [Obscurix](https://obscurix.github.io/security/overview.html). Для сборки слегка модифицирован прекрасный проект [Archuseriso](https://github.com/laurent85v/archuseriso).
+За основу взяты твики из [Obscurix](https://obscurix.github.io/security/overview.html). 
+
+Для сборки слегка модифицирован прекрасный проект [Archuseriso](https://github.com/laurent85v/archuseriso).
 
 Понадобится Arch-система или желание её установить. [RU](https://telegra.ph/1-Ustanovka-Arch-Linux-12-28)|[ENG](https://telegra.ph/1-Arch-Linux-Installation-12-28)
 
