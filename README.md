@@ -1,7 +1,12 @@
-# Gpac
+ <h1><p align="center">Gpac</p></h1>
 
-При старте OS вам доступна система виртуализации `qemu-kvm` и её фронт в виде `virt-manager`. Интегрирован демон `usbkill`, который при изменении состояния USB выключает ПК и `usbguard`, пускающий только доверенные устройства. Есть firewall [OpenSnitch](https://github.com/evilsocket/opensnitch).
 
+Система направленная на защиту от 0day, так же является целостной и воспроизводимой, была оптимизирована для работы на USB.
+
+<h3>USBKill</h3> - демон при изменении в списке USB устройств выключает ПК и чистит оперативную память.
+<h3>USBGuard</h3> - демон фильтрации недоверенных устройств на основе белого списка.
+<h3>OpenSnitch</h3> - App Firewall.
+<h3></h3>
 За основу взяты твики из [Obscurix](https://obscurix.github.io/security/overview.html). Для сборки слегка модифицирован прекрасный проект [Archuseriso](https://github.com/laurent85v/archuseriso).
 
 Понадобится Arch-система или желание её установить. [RU](https://telegra.ph/1-Ustanovka-Arch-Linux-12-28)|[ENG](https://telegra.ph/1-Arch-Linux-Installation-12-28)
@@ -23,14 +28,14 @@ sudo ./aui-mkusb --size-esp=1G --size-cow=12G --ext4-no-journal --encrypt out/Gp
 
 *Если носитель размером 16Gb, то под persistence вы можете выделить только 16-1-2.5=12Gb.*
 
-## Usbguard и usbkill
+## USBGuard и USBKill
 
 Для генерации списка доверенных USB-устройств, подключите их к вашему ПК и выполните в терминале:
 ```
 sudo usbregen
 ```
 
-Для включения `usbkill` выполните:
+Для включения `USBKill` выполните:
 ```
 sudo usbkillon
 ```
